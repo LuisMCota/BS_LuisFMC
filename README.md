@@ -1,4 +1,4 @@
-# Análisis de Reservas por País – The Palace Company
+# CASO PRÁCTICO-COORDINADOR DE DATOS
 
 Este proyecto realiza consultas SQL sobre una base de datos simulada de reservas hoteleras con el objetivo de analizar el comportamiento de los clientes por país.
 
