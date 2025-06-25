@@ -5,7 +5,7 @@ Este proyecto realiza consultas SQL sobre una base de datos simulada de reservas
 ## Archivos
 
 - `reservas_simuladas.db`: Base de datos SQLite con datos ficticios de reservas.
-- `Simulacion.py`: Script para generar y poblar la base de datos.
+- `Simulacion.py`: Script para generar la base de datos.
 - `Consultas.ipynb`: Notebook con las consultas y visualización de resultados.
 
 ## Consultas realizadas
