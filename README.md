@@ -1,46 +1,36 @@
-# 🏨 Análisis de Reservas — Cadena Hotelera
+# Análisis de Reservas por País – The Palace Company
 
-Este proyecto analiza datos simulados de reservas de una cadena hotelera internacional para obtener insights clave sobre el comportamiento de los clientes por país.
+Este proyecto realiza consultas SQL sobre una base de datos simulada de reservas hoteleras con el objetivo de analizar el comportamiento de los clientes por país.
 
-## 📁 Estructura de Archivos
+## Archivos
 
-- `consultas_sql.ipynb`: Notebook con consultas SQL y análisis usando SQLite y pandas.
-- `reservas_simuladas.db`: Base de datos SQLite con información de reservas.
-- `Simulacion.py`: Script en Python para generar o simular datos de reservas.
+- `reservas_simuladas.db`: Base de datos SQLite con datos ficticios de reservas.
+- `Simulacion.py`: Script para generar y poblar la base de datos.
+- `consultas_sql.ipynb`: Notebook con las consultas y visualización de resultados.
 
-## 🔍 Análisis Incluido
+## Consultas realizadas
 
-1. Ingresos totales por país
-2. Duración promedio de estancias
-3. Estacionalidad de reservas
-4. Preferencias por tipo de habitación
-5. Tasa de cancelación por país
+1. **Ingresos por país**  
+   Suma total de reservas completadas por país de origen del cliente.
 
-## 🛠 Tecnologías Utilizadas
+2. **Duración promedio de estancias**  
+   Cálculo del número promedio de noches por país.
 
-- Python 3 (con `pandas`, `sqlite3`)
+3. **Estacionalidad de reservas**  
+   Distribución mensual de las reservas por país.
+
+4. **Preferencias por tipo de habitación**  
+   Cantidad de reservas por tipo de habitación segmentadas por país.
+
+5. **Tasa de cancelación por país**  
+   Porcentaje de reservas canceladas con respecto al total por país.
+
+## Requisitos
+
+- Python 3
 - SQLite
 - Jupyter Notebook
+- Librerías: `pandas`, `matplotlib`, `ipython-sql`
 
-## 🚀 Cómo Ejecutar
+---
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repo.git
-   cd tu_repo
-   ```
-
-2. Ejecuta el notebook:
-   ```bash
-   jupyter notebook consultas_sql.ipynb
-   ```
-
-3. (Opcional) Ejecuta el generador de datos:
-   ```bash
-   python Simulacion.py
-   ```
-
-## 👨‍💻 Autor
-
-Luis Fernando Monterrubio Cota  
-Proyecto académico — 2025
